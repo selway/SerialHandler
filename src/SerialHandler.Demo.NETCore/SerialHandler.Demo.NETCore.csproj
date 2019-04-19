@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\SerialHandler\SerialHandler.csproj" />
+  </ItemGroup>
+
+</Project>

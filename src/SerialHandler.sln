@@ -9,6 +9,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SerialHandler.Demo.Shared",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialHandler.Demo.NET4", "SerialHandler.Demo.NET4\SerialHandler.Demo.NET4.csproj", "{944F31F0-4863-4B3F-B12B-740567E4F078}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialHandler.Demo.NETCore", "SerialHandler.Demo.NETCore\SerialHandler.Demo.NETCore.csproj", "{F965DEE0-006D-488E-BAA3-DCA9B8067374}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems*{7591a02a-9c0a-4a69-8e08-b313bd51b16b}*SharedItemsImports = 13
@@ -27,6 +29,10 @@ Global
 		{944F31F0-4863-4B3F-B12B-740567E4F078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{944F31F0-4863-4B3F-B12B-740567E4F078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{944F31F0-4863-4B3F-B12B-740567E4F078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
