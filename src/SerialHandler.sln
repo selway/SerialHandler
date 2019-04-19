@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.28809.33
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialHandler", "SerialHandler\SerialHandler.csproj", "{FCFEB0F8-188A-4EAE-8EDB-8EB40DAC4026}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SerialHandler.Demo.Shared", "SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.shproj", "{7591A02A-9C0A-4A69-8E08-B313BD51B16B}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems*{7591a02a-9c0a-4a69-8e08-b313bd51b16b}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
