@@ -8,7 +8,7 @@
   <Import Project="..\SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <ProjectReference Include="..\SerialHandler\SerialHandler.csproj" />
+    <PackageReference Include="SerialHandler" Version="0.0.1-beta" />
   </ItemGroup>
 
 </Project>

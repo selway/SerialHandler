@@ -37,6 +37,9 @@
     <StartupObject>SerialHandler.Demo.NET4.App</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SerialHandler, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SerialHandler.0.0.1-beta\lib\net40\SerialHandler.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -87,16 +90,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SerialHandler\SerialHandler.csproj">
-      <Project>{fcfeb0f8-188a-4eae-8edb-8eb40dac4026}</Project>
-      <Name>SerialHandler</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="..\SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
