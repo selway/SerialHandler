@@ -1,2 +1,2 @@
 # SerialHandler
-A handler of serial port.
+SerialHandler a handler of serial port. It provides a processing mechanism for mixed communication of "command-response and actively report". Let you focus on the protocol encoding and decoding without worrying about serial communication processing.

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net4.0;net4.5;net4.6;net4.6.1;netstandard2.0;netcoreapp2.0</TargetFrameworks>
+    <Version>0.0.1-beta</Version>
+    <Company>Selway</Company>
+    <Authors>Selway</Authors>
+    <Copyright>Copyright © Selway 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/selway/SerialHandler</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/selway/SerialHandler</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>SerialHandler</PackageTags>
+    <Description>SerialHandler a handler of serial port. It provides a processing mechanism for mixed communication of "command-response and actively report". Let you focus on the protocol encoding and decoding without worrying about serial communication processing.</Description>
+    <NeutralLanguage />
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net4.0' OR '$(TargetFramework)' == 'net4.5' OR '$(TargetFramework)' == 'net4.6'">
+    <DefineConstants>BELOW_NET461</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net4.6.1' OR '$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netcoreapp2.0'">
+    <PackageReference Include="System.IO.Ports" Version="4.5.0" />
+  </ItemGroup>
+</Project>
