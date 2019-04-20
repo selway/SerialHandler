@@ -7,7 +7,7 @@ SerialHandler a handler of serial port. It provides a processing mechanism for m
 
 ## NuGet Package
 
-[Package URL](https://www.nuget.org/packages/SerialHandler/0.0.1-beta#)
+[Package URL](https://www.nuget.org/packages/SerialHandler)
 
 ## Licence
 
