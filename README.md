@@ -3,7 +3,7 @@ SerialHandler a handler of serial port. It provides a processing mechanism for m
 
 ## Version
 
-**0.0.1-beta**
+**0.0.1-beta2**
 
 ## NuGet Package
 
