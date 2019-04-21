@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/selway/SerialHandler</RepositoryUrl>
     <PackageProjectUrl>https://github.com/selway/SerialHandler</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>serisl serialport serial-port serial-ports port</PackageTags>
+    <PackageTags>serial port serialport serial-port serial-ports</PackageTags>
     <Description>SerialHandler a handler of serial port. It provides a processing mechanism for mixed communication of "command-response and actively report". Let you focus on the protocol encoding and decoding without worrying about serial communication processing.</Description>
     <NeutralLanguage />
   </PropertyGroup>
