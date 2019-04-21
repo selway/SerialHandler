@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net4.0;net4.5;net4.5.1;net4.5.2;net4.6;net4.6.1;net4.6.2;net4.7;net4.7.1;net4.7.2;netstandard2.0;netcoreapp2.0</TargetFrameworks>
-    <Version>0.0.1-beta2</Version>
+    <Version>0.0.1-beta3</Version>
     <Company>Selway</Company>
     <Authors>Selway</Authors>
     <Copyright>Copyright © Selway 2019</Copyright>
