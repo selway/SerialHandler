@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net4.0;net4.5;net4.6;net4.6.1;netstandard2.0;netcoreapp2.0</TargetFrameworks>
-    <Version>0.0.1-beta2</Version>
+    <TargetFrameworks>net4.0;net4.5;net4.5.1;net4.5.2;net4.6;net4.6.1;net4.6.2;net4.7;net4.7.1;net4.7.2;netstandard2.0;netcoreapp2.0</TargetFrameworks>
+    <Version>0.0.1-beta3</Version>
     <Company>Selway</Company>
     <Authors>Selway</Authors>
     <Copyright>Copyright © Selway 2019</Copyright>
@@ -10,16 +10,16 @@
     <RepositoryUrl>https://github.com/selway/SerialHandler</RepositoryUrl>
     <PackageProjectUrl>https://github.com/selway/SerialHandler</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>serisl serialport serial-port serial-ports port</PackageTags>
+    <PackageTags>serial port serialport serial-port serial-ports</PackageTags>
     <Description>SerialHandler a handler of serial port. It provides a processing mechanism for mixed communication of "command-response and actively report". Let you focus on the protocol encoding and decoding without worrying about serial communication processing.</Description>
     <NeutralLanguage />
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net4.0' OR '$(TargetFramework)' == 'net4.5' OR '$(TargetFramework)' == 'net4.6'">
-    <DefineConstants>BELOW_NET461</DefineConstants>
+    <DefineConstants>BELOW_NET</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net4.6.1' OR '$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netcoreapp2.0'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netcoreapp2.0'">
     <PackageReference Include="System.IO.Ports" Version="4.5.0" />
   </ItemGroup>
 </Project>
