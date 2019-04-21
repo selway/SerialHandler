@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net4.0;net4.5;net4.6;net4.6.1;netstandard2.0;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>net4.0;net4.5;net4.5.1;net4.5.2;net4.6;net4.6.1;net4.6.2;net4.7;net4.7.1;net4.7.2;netstandard2.0;netcoreapp2.0</TargetFrameworks>
     <Version>0.0.1-beta2</Version>
     <Company>Selway</Company>
     <Authors>Selway</Authors>
@@ -16,10 +16,10 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net4.0' OR '$(TargetFramework)' == 'net4.5' OR '$(TargetFramework)' == 'net4.6'">
-    <DefineConstants>BELOW_NET461</DefineConstants>
+    <DefineConstants>BELOW_NET</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net4.6.1' OR '$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netcoreapp2.0'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netcoreapp2.0'">
     <PackageReference Include="System.IO.Ports" Version="4.5.0" />
   </ItemGroup>
 </Project>
