@@ -9,12 +9,15 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SerialHandler.Demo.Shared",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialHandler.Demo.NET4", "SerialHandler.Demo.NET4\SerialHandler.Demo.NET4.csproj", "{944F31F0-4863-4B3F-B12B-740567E4F078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialHandler.Demo.NETCore", "SerialHandler.Demo.NETCore\SerialHandler.Demo.NETCore.csproj", "{F965DEE0-006D-488E-BAA3-DCA9B8067374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialHandler.Demo.NETCore", "SerialHandler.Demo.NETCore\SerialHandler.Demo.NETCore.csproj", "{F965DEE0-006D-488E-BAA3-DCA9B8067374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialHandler.Demo.NET461", "SerialHandler.Demo.NET461\SerialHandler.Demo.NET461.csproj", "{D539861B-63C1-47A0-80BD-3864AC6F564C}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems*{7591a02a-9c0a-4a69-8e08-b313bd51b16b}*SharedItemsImports = 13
 		SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems*{944f31f0-4863-4b3f-b12b-740567e4f078}*SharedItemsImports = 4
+		SerialHandler.Demo.Shared\SerialHandler.Demo.Shared.projitems*{d539861b-63c1-47a0-80bd-3864ac6f564c}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +36,10 @@ Global
 		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F965DEE0-006D-488E-BAA3-DCA9B8067374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D539861B-63C1-47A0-80BD-3864AC6F564C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D539861B-63C1-47A0-80BD-3864AC6F564C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D539861B-63C1-47A0-80BD-3864AC6F564C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D539861B-63C1-47A0-80BD-3864AC6F564C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
