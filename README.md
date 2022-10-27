@@ -11,4 +11,4 @@ SerialHandler a handler of serial port. It provides a processing mechanism for m
 
 ## Licence
 
-[MIT License (MIT)](./LICENSE)
+[Apache-2.0 license](./LICENSE)
